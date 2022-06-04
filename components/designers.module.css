@@ -1,0 +1,48 @@
+.designer_card {
+  width: calc(33.33% - 20px);
+  height: 620px;
+}
+@media (max-width: 1300px) {
+  .designer_card {
+    height: 550px;
+  }
+}
+@media (max-width: 1150px) {
+  .designer_card {
+    height: 440px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .designer_card {
+    height: 390px;
+  }
+}
+@media (max-width: 940px) {
+  .designer_card {
+    height: 360px;
+  }
+}
+@media (max-width: 850px) {
+  .designer_card {
+    height: 310px;
+  }
+}
+
+@media (max-width: 750px) {
+  .designer_card {
+    height: 280px;
+  }
+}
+@media (max-width: 670px) {
+  .designer_card {
+    height: 255px;
+  }
+}
+
+@media (max-width: 640px) {
+  .designer_card {
+    width: 100%;
+    height: 100%;
+  }
+}

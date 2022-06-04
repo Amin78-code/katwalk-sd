@@ -1,0 +1,40 @@
+.footer_menu li:hover a {
+  color: #ecd9c4;
+}
+.footer_menu li:hover div a {
+  color: #c53a19;
+}
+.footer_menu li div a:hover {
+  color: #000000;
+}
+.dropdown_menu_div::before {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  transform: rotate(45deg);
+  bottom: -6px;
+  left: calc(50% - 15px);
+  z-index: -1;
+}
+
+@media (max-width: 1460px) {
+  .footer_menu {
+    column-gap: 12px !important;
+  }  
+}
+
+@media (max-width: 1260px) {
+  .footer_right_div {
+    padding-right: 10px !important;
+    text-align: right;
+  }  
+  .image_div {
+    margin-right: 20px;
+  }
+  .right_img_div {
+    margin-right: 0px !important;
+  }
+}
+

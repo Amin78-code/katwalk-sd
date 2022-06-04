@@ -1,0 +1,24 @@
+.footer_menu li:hover a {
+    color : #ecd9c4;
+}
+
+.orange_anim_btn:before {
+    background: white;
+    content: "";
+    width: 100%;
+    height: 1px;
+    -webkit-transition: height 0.3s ease;
+    -o-transition: height 0.3s ease;
+    transition: height 0.3s ease;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .orange_anim_btn:hover:before {
+    background: #c53a19;
+    content: "";
+    width: 100%;
+    height: 30px;
+    z-index: -1;
+  }

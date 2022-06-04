@@ -1,0 +1,14 @@
+.nav ul li a.active {
+  border-left: 3px solid #e62e04;
+  background-color: #e62e0426;
+}
+.nav ul li a.active div {
+  background-color: #e62e04;
+}
+.nav ul li a:hover {
+  border-left: 3px solid #e62e04;
+  background-color: #e62e0426;
+}
+.nav ul li a:hover div {
+  background-color: #e62e04;
+}

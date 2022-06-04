@@ -1,0 +1,11 @@
+.login_main_div {
+    height: 100vh;
+}
+.login_bg_img_div img {
+    object-position: 0px -50px;
+}
+@media (max-width: 640px) {
+    .login_bg_img_div img {
+        object-position: center;
+    }
+}

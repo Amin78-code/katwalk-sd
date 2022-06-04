@@ -1,0 +1,29 @@
+.active {
+  border-left: 1px solid #fbf1e8;
+  border-right: 1px solid #fbf1e8;
+}
+.filter_main_div:hover .form-check-input {
+  border-color: #c53a19 !important;
+}
+.filters_heading {
+  display: none;
+}
+.center_heading_div {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .filters_heading {
+    display: block;
+  }
+}
+@media (max-width: 1024px) {
+  .all_filters_div {
+    display: none;
+  }
+  .right_heading_div {
+    display: none;
+  }
+  .center_heading_div {
+    display: block;
+  }
+}

@@ -1,0 +1,31 @@
+.variation_dropdowns div:hover {
+  color: #1b1b28;
+  /* background-color: #c53a24; */
+  background-color: #fbf1e8;
+}
+.need_help_div:hover .dropdown_menu_div {
+  display: block;
+}
+.need_help_div .dropdown_menu_div:before {
+  position: absolute;
+  border: 11px solid transparent;
+  /* border-top-color: #fbf1e8; */
+  border-top-color: #fff;
+  left: calc(50% - 6px);
+  display: block;
+  content: "";
+  height: 0;
+  width: 0;
+  bottom: -23px;
+}
+.need_help_div .dropdown_menu_div:after {
+  position: absolute;
+  display: block;
+  content: "";
+  height: 20px;
+  width: 120px;
+  /* background-color: blue; */
+  bottom: -20px;                                                                                                                                            
+  left: calc(50% - 50px);
+  z-index: 20;
+}
