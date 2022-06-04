@@ -5,7 +5,6 @@ import TitleAndTableCard from "../../../components/dashboard/title-and-table-car
 import TableHeader from "../table-header/TableHeader";
 
 function WishListCard({ data }) {
-  console.log("data", data);
   return (
     <div className="w-[32.4%] mb-[0.5rem]">
       <TitleAndTableCard>
