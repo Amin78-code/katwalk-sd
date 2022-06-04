@@ -60,7 +60,7 @@ function Wishlists() {
               <div className="pb-[40px]">
                 <BottomShadowCard>
                   <h5 className="fwb text-[#1b1b28] text-[13px] leading-[1.5] tracking-[0.5px] text-center mt-[17px]">
-                    There isn&apos;t anything added yet
+                    There is not anything added yet
                   </h5>
                 </BottomShadowCard>
               </div>

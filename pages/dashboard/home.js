@@ -153,7 +153,6 @@ function AdminPanel() {
 }
 
 function StatusCard({ data, index }) {
-  console.log("data", data);
   return (
     <div
       className={`w-[100%] h-[125px] ${
