@@ -122,7 +122,9 @@ function SideBar({ active }) {
       <a
         className={`ffr pink-btn w-[100%] h-[40px] block text-[#e62e04] text-[0.875rem] text-center uppercase bg-[#e62e0426] tracking-[0.5px] taPoint3 py-[10px] px-[25px] cursor-pointer`}
       >
+        <Link href="https://katwalk-admin.vercel.app/"> 
         logout
+         </Link>
       </a>
       <hr className="h-[0] border-[#727272] border-0 border-b-[1px] shadow-sm my-[6px]" />
       <h6 className="fwr text-[13px] text-[#1b1b28] leading-[1.5] tracking-[0.5px] text-center my-[19px] font-[600]">
