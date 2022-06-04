@@ -149,10 +149,10 @@ function StatusCard({ data, index }) {
   console.log("data",data)
   return (
     <div className={`w-[100%] h-[125px] ${index == 0? 'bg-[#609cde]' : index == 1? 'bg-[#e5488a]' : index == 2 ? 'bg-[#624ebc]' :  index == 3 ? 'bg-[#609cde]' : ""} mb-[1.5rem] rounded-[0.3rem]`}>
-      <div class={`${index == 0? styles.bg_grad_1 : index == 1? styles.bg_grad_2 : index == 2 ? styles.bg_grad_3 :  index == 3 ? styles.bg_grad_4 : ""} text-white rounded-lg mb-4 overflow-hidden`}>
-        <div class="px-[1rem] pt-[1rem]">
-          <div class="fwb text-[14px]">{data.title == "Total earnings" ? "SAR " : ""}{data.number}</div>
-          <div class="fwr opacity-[.5] text-[13px] text-[#fff]">{data.title}</div>
+      <div className={`${index == 0? styles.bg_grad_1 : index == 1? styles.bg_grad_2 : index == 2 ? styles.bg_grad_3 :  index == 3 ? styles.bg_grad_4 : ""} text-white rounded-lg mb-4 overflow-hidden`}>
+        <div className="px-[1rem] pt-[1rem]">
+          <div className="fwb text-[14px]">{data.title == "Total earnings" ? "SAR " : ""}{data.number}</div>
+          <div className="fwr opacity-[.5] text-[13px] text-[#fff]">{data.title}</div>
         </div>
         {data.svg}
       </div>
